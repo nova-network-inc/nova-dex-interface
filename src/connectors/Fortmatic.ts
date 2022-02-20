@@ -9,7 +9,7 @@ const CHAIN_ID_NETWORK_ARGUMENT: { readonly [chainId in FormaticSupportedChains]
   [ChainId.MAINNET]: undefined,
   [ChainId.ROPSTEN]: 'ropsten',
   [ChainId.RINKEBY]: 'rinkeby',
-  [ChainId.NOVA]: undefined,
+  [ChainId.NOVA]: 'nova',
   [ChainId.KOVAN]: 'kovan'
 
 }
