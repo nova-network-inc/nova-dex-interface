@@ -275,7 +275,7 @@ export default function Header() {
         </Title>
         <HeaderLinks>
           <StyledNavLink id={`swap-nav-link`} to={'/swap'}>
-            {t('swap')}
+            {t('Swap')}
           </StyledNavLink>
           <StyledNavLink
             id={`pool-nav-link`}
@@ -288,10 +288,12 @@ export default function Header() {
               pathname.startsWith('/find')
             }
           >
-            {t('pool')}
+            {t('Liquidity')}
           </StyledNavLink>
+          <StyledNavLink id={`create-nav-link`} to={'/create/ETH'}>
+          {t('Create Pair')}
+        </StyledNavLink>
           <StyledExternalLink id={`stake-nav-link`} href={'https://novanetwork.io/'}>
-            Analytics ↗
           </StyledExternalLink>
         </HeaderLinks>
       </HeaderRow>
